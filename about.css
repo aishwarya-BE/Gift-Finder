@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(248, 244, 244);
+    color: rgb(46, 15, 74);
+    font-size: medium;
+}
+
+header {
+    height: 72px;
+    background-color: rgb(245, 162, 176);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 70px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(66, 19, 56);
+}
+
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    color: rgb(86, 2, 61);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover,
+nav a.active {
+    color: white;
+}
+
+
+.wishlist {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: pink;
+    color: rgb(77, 16, 54);
+}
+
+
+.about {
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.about-intro {
+    font-size: 21px;
+    color: #06172b;
+    margin-bottom: 45px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.about-box {
+    width: 260px;
+    min-height: 180px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 12px grey;
+    text-align: left;
+}
+
+.about-box h2 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.about-box p {
+    color: #06172b;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.about-box:hover {
+    transform: translateY(-5px);
+}
+
+.about-message {
+    margin-top: 50px;
+    padding: 35px;
+    background-color: #f8dce2;
+    border-radius: 15px;
+}
+
+.about-message h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.about-message p {
+    color: #06172b;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+
+.about-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #c971b2;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.about-button:hover {
+    background-color: #df7c8d;
+    color: white;
+}
+
+
+
+footer {
+    background-color: #06172b;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-logo span {
+    color:#f28ba0;
+}
+
+.footer-logo p {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #ff6680;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #ccd4df;
+}
+
+

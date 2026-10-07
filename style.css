@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(46, 15, 74);
+    font-size: medium;
+}
+
+header {
+    height: 72px;
+    background-color: rgb(245, 162, 176);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 70px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(66, 19, 56);
+}
+
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    color: rgb(86, 2, 61);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover,
+nav a.active {
+    color: white;
+}
+
+
+.wishlist {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: pink;
+    color: rgb(77, 16, 54);
+}
+
+.hero {
+    min-height: 300px;
+    background-image: url("./Img/gift\ ph2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 50px 70px;
+}
+
+.hero-content {
+    width: 45%;
+}
+
+.small-text {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.main-button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(202, 113, 178);
+    color: rgb(15, 14, 15);
+}
+
+.main-button:hover {
+    background-color: grey;
+}
+
+
+
+.categories{
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.categories h2,
+.popular h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.category-container{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.category{
+    width: 130px;
+    text-align: center;
+}
+
+.category-icon{
+    
+    width: 90px;
+    height: 90px;
+    background-color: #ffe0e5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: auto;
+}
+
+.category-icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.category h3{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+}
+
+.find-gift {
+    padding: 40px 60px;
+}
+
+.find-content {
+    background-color: #f4f0ff;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #ddd;
+}
+
+.find-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.find-content > p {
+    margin-bottom: 25px;
+    color: #0b1f35;
+}
+
+
+.form-container{
+    display: flex;
+    align-items: end;
+    gap: 100px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd4df;
+    border-radius: 8px;
+    background-color: white;
+    margin-right: 100px;
+    
+}
+
+.find-button {
+    background-color: #f45b78;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+
+.popular {
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.gift-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gift-card{
+    margin-top: 10px;
+    width: 250px;
+    background-color: rgb(229, 225, 243);
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.gift-card:hover{
+    transform: translateY(-5px);
+}
+
+.gift-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gift-card h3 {
+    margin: 12px 0 5px;
+}
+
+.gift-card p {
+    color: #20528c;
+    font-size: 14px;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.card-bottom span {
+    color: #460511;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-bottom button {
+    border: none;
+    background-color: #ffe4e9;
+    color: #720118;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+
+
+
+footer {
+    background-color: #06172b;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-logo span {
+    color: #f28ba0;
+}
+
+.footer-logo p {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #ff6680;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #ccd4df;
+}
